@@ -51,18 +51,5 @@ class MenuItem {
       }
     }
   }
-  
-  // Usage example:
-  const menu = new Menu();
-  
-  menu.createItem('Burger', 9.99);
-  menu.createItem('Pizza', 12.99);
-  menu.createItem('Salad', 7.99);
-  
-  menu.viewMenu();
-  
-  menu.deleteItem(1);
-  
-  menu.viewMenu();
 
   
